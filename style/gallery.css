@@ -1,0 +1,168 @@
+div.wrapg {
+	position: relative;
+	width: 98%;
+	margin: 0 1% 0 1%;
+
+}
+
+div.gallery {
+	display: inline-block;
+	width: 230px;  /* ширина блока с товаром */
+	height: 330px;
+	/*height: 308px; /* высота блока с товаром */
+	vertical-align: top;
+
+	position: relative;
+	margin: 0;
+	margin-bottom: 4px;
+	top: 5px;
+    background: #fff;
+    border: 1px solid #E8E8E8;
+
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    -khtml-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+	 
+}
+
+div.gallery:hover {
+	cursor: pointer;
+	z-index: 6;
+    border: 1px solid #bababa;
+    margin: -15px;
+   /* margin-bottom: -2px;*/
+    padding: 15px;
+    -webkit-box-shadow: 0 0 15px #bababa;
+    -moz-box-shadow: 0 0 15px #bababa;
+    -o-box-shadow: 0 0 15px #bababa;
+    -khtml-box-shadow: 0 0 15px #bababa;
+    box-shadow: 0 0 15px #bababa;
+
+}
+
+div.gallery img {
+	display: block;
+	margin: 0 auto;
+	padding: 10px 0 0 0;
+	
+	max-width: 200px; /*ширина картинок*/
+	min-width: 200px;
+	max-height: 200px; /*высота картинок*/
+	min-height: 200px;
+}
+div.gallery strong {
+	display: block;
+	padding: 6px 6px 6px 20px;
+	text-align: left;
+	font-style: italic;
+	line-height: 1.0em;   /*-------------------------------------------------параметр который влияет на смещение блоков------------------------*/
+}
+		div.gallery a {
+			color:#A74544;
+			font-family: "Roboto", Tahoma;
+			font-size: 14px;
+
+		}
+				div.gallery a:hover {
+					color:#C94A4A;
+				}
+
+
+div.gallery span.description-links {
+	position: absolute;
+	display: block;
+	width: 230px;
+	margin: 0;
+	bottom: 5px;
+	color:#A5A5A5;
+}
+
+div.gallery span.description-links a.compare {
+position: absolute;
+left:35px;
+}
+div.gallery span.description-links a.myFavorites {
+position: absolute;
+right:15px;
+}
+
+div.gallery span.description-links a {
+	display: inline-block;
+	border-bottom: 1px dotted #809FFF;
+	font-size: 0.8em; 
+	color: #809FFF;
+	font-weight: 100;
+}
+div.gallery span.description-links a:hover {
+	text-decoration:none;
+	color:#FF8F01;
+	border-bottom: 1px dotted #FF8F01;
+}
+
+input[type="checkbox"] {
+	margin-left: 17px;
+}
+input[class="check2"] {
+	margin-left: 83px;
+}
+/*-------------------------------*/
+
+div.priceButtonWrap {
+	position: absolute;
+	bottom: 65px;
+	width: 200px;
+	margin: 0 15px;
+
+	/*border: 1px solid red;*/
+
+}
+div.gallery div.priceButtonWrap big {
+	display: inline-block;
+	position: absolute;
+	left: 20px;
+	top:5px;
+	font-family: "Roboto", Tahoma;
+	color: black;
+}
+div.gallery div.priceButtonWrap big span {
+	font-size: .7em;
+	color: #7C7C7C;
+	vertical-align: super;
+}
+div.gallery div.priceButtonWrap a.buy {
+  position: absolute;
+  right:0;
+  display: inline-block;
+  color: white;
+  font-style: italic;
+  text-decoration: none;
+  padding: .3em 1em;
+  outline: none;
+  border-width: 2px 0;
+  border-style: solid none;
+  border-color: #FDBE33 #000 #D77206;
+  border-radius: 6px;
+  background: linear-gradient(#F3AE0F, #E38916) #E38916;
+  transition: 0.2s;
+} 
+div.gallery div.priceButtonWrap a.buy:hover { background: linear-gradient(#f5ae00, #f59500) #f5ae00; }
+div.gallery div.priceButtonWrap a.buy:active { background: linear-gradient(#f59500, #f5ae00) #f59500; }
+	/*div.gallery a.buy:hover {
+		background-color: #C94A4A;
+		border: 1px solid #72292A;
+		color:#fff;
+
+		-webkit-transition: all 0.2s ease 0s;
+    	-moz-transition: all 0.2s ease 0s;
+   		 -o-transition: all 0.2s ease 0s;
+   		 -khtml-transition: all 0.2s ease 0s;
+    	transition: all 0.2s ease 0s;
+	}*//*
+a[class=buy]:before { 
+					  content: url("../img/buy1.png");
+					 }
+					  
+					
+					*/
